@@ -1,0 +1,12 @@
+micronaut:
+  server:
+    port: 8081
+    cors:
+      enabled: true
+      configurations:
+        web:
+          exposedHeaders:
+            - Access-Control-Allow-Origin
+            - Access-Control-Allow-Headers
+            - Access-Control-Allow-Methods
+            - Content-Type
